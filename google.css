@@ -6,6 +6,9 @@ html {
     box-sizing:inherit;
     overflow:hidden;
 }
+a {
+    color:black;
+}
 
 #nav-bar {
     display:flex;
