@@ -2,12 +2,17 @@ html {
     box-sizing:border-box;
 }
 
+body {
+    font-family:sans-serif;
+}
+
 *,*::before, *::after {
     box-sizing:inherit;
     overflow:hidden;
 }
 a {
     color:black;
+    font-size: 0.8rem;
 }
 
 #nav-bar {
@@ -48,12 +53,12 @@ a {
 
 #main-div {
     position:relative;
-    top:-80px;
+    bottom:130px;
     text-align:center;
 }
 
 #main-container img {
-    width:430px;
+    width:370;
 }
 
 #search-bar-div {
@@ -61,20 +66,24 @@ a {
 }
 
 #search-bar {
-   width: 700px;
-   margin:2rem;
-   font-size:2rem;
+   width: 600px;
+   margin-top:1rem;
+   margin-bottom: 1.6rem;
+   font-size:1.2rem;
    border-radius: 30px;
+   padding:10px 20px 10px 20px;
+   outline:none;
    border: 1px solid lightgrey;
 }
 
 #main-container button{
-    width:200px;
-    font-size:1.2rem;
+    width:120px;
+    font-size:.9rem;
     background-color: rgb(234, 238, 238);
     border:1px solid transparent;
     border-radius:5px;
-    padding:1rem;
+    margin:0 7px px 0;
+    padding:5px 3px 5px 3px;
     cursor:pointer;   
 }
 
